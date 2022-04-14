@@ -11,6 +11,6 @@ export class IdentityService {
   constructor(private http:HttpClient) { }
 
   signIn(model:LoginModel): Observable<any> {
-    return  this.http.post('http://localhost:3000/sign-in', model);
+    return  this.http.post('`${environment.apiUrl}sign-in', model);
   }
 }
