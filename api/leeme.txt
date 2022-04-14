@@ -1,0 +1,9 @@
+1. Ejecutar:
+	npm install
+
+Con esto se instalaran las dependencias del proyecto
+
+2. Ejecutar:
+	npm run serve
+
+Con esto se levanta el proyecto
