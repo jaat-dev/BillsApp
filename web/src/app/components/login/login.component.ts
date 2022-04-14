@@ -22,6 +22,7 @@ export class LoginComponent implements OnInit {
   ngOnInit(): void {}
 
   onSubmit(): void {
+    debugger
     let self = this;
 
     this.identityService.signIn(this.model).subscribe({

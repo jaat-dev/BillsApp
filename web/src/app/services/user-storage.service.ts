@@ -10,6 +10,7 @@ export class UserStorageService {
   constructor() {}
 
   get user(): SessionUserModel {
+    debugger
     let user = localStorage.getItem(this.key);
     if (user) {
       let objUser = JSON.parse(user);
